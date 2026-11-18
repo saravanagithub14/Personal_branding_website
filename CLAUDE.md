@@ -12,14 +12,14 @@ Rank and convert for "AI trainer" (primary) and "AI trainer in Kerala". The page
 - No em dashes in page copy. Use commas or periods. Conversational tone, short and long sentences mixed, no corporate filler.
 - One H1 on the page. Sections are H2, services and FAQ questions are H3.
 - Use each target keyword naturally two or three times. No stuffing.
-- This repo keeps site content in the database (Django admin), and views reshape DB rows into dicts for templates. Check `portfolio/models.py`, `portfolio/views.py`, `portfolio/context_processors.py` and `templates/base.html` before deciding whether this page is a new template with static copy, new models, or admin-edited content. Keep the view's dict shape in sync with the template if you touch a model.
-- The V.E.R.A. chatbot answers from `knowledge_base/*.md`. After adding training services to the site, add a matching `knowledge_base/services.md` (same format as the existing files, with a front-matter block per section) and rebuild with `python manage.py build_rag_index --force`. Run `pytest` after.
+- This repo is a static HTML/CSS/JS site (see "Site as built" below). There is no Django project here: content lives directly in the HTML pages. The original Django notes (`portfolio/models.py`, views, context processors, `templates/base.html`) apply only to the separate Django portfolio.
+- The V.E.R.A. chatbot and `knowledge_base/*.md` also belong to the Django portfolio. In this repo, the MCP server in `mcp_server/` serves the site's content to AI assistants. Run its tests after changing page markup.
 
 ## Facts you may use (from the CV and profile)
 
 - Name: Saravana Perumal R. Based in Trivandrum (Thiruvananthapuram), Kerala, India.
 - Current role: Gen AI Engineer at Blackbox Learning (since April 2026).
-- Two book chapters and two research articles, including a 2019 book chapter in Advances in Experimental Medicine and Biology (from the IISER dissertation work). UGC-NET (Assistant Professor, Life Sciences) 2019.
+- Two book chapters and three research articles (full list under "Publications" below), including the 2019 book chapter in Advances in Experimental Medicine and Biology from the IISER dissertation work. UGC-NET (Assistant Professor, Life Sciences) 2019.
 
 ### Experience (confirmed by Saravana, used on about.html)
 
@@ -35,7 +35,64 @@ Research & Life Sciences:
 - **Senior Research Fellow, SCTIMST (Govt. of India)** (Jul 2019 to Nov 2023). Biomedical technology at Sree Chitra Tirunal Institute for Medical Sciences and Technology: 3D bioprinting of skin, an antimicrobial self-crosslinking hydrogel, biosynthesized nanosilver. Led and managed research projects with interdisciplinary teams under regulatory standards, statistical analysis of experimental data, reports, presentations and publications.
 - **Young Professional II, CIBA, ICAR (Govt. of India)** (Mar 2019 to Jul 2019). Under Dr. M. Makesh on the ICAR-CRP project on Vaccines and Diagnostics, Chennai: vaccines against Nervous Necrosis Virus in sea bass, PCR-based disease diagnosis in aquaculture.
 - **Masters Dissertation Scholar, Stem Cell Biology, IISER Thiruvananthapuram** (Nov 2017 to Nov 2018). Periostin-integrin signalling in the regulation of hematopoiesis in the bone marrow niche; cell culture, molecular biology, microscopy. Led to the 2019 book chapter above.
-- Education: BSc Botany and Biotechnology (Kerala University, 2013 to 2016), MSc Biotechnology and Bioinformatics (KUFOS, 2016 to 2018), Diploma in Data Science (Edure, 2023 to 2024).
+
+### Education and qualifications (confirmed, used on about.html and experience.html#education)
+
+- **Diploma in Data Science, Edure, Thiruvananthapuram** (2023 to 2024). Taken alongside the six-month data science internship at Edure (Sep 2023 to Feb 2024); led straight into the Jr. Data Scientist role at Dexpro Innovations.
+- **MSc Biotechnology and Bioinformatics, Kerala University of Fisheries and Ocean Studies (KUFOS)** (2016 to 2018). Masters dissertation done at IISER Thiruvananthapuram (Nov 2017 to Nov 2018): periostin-integrin signalling in the regulation of hematopoiesis in the bone marrow niche; cell culture, molecular biology, microscopy. Led to the 2019 book chapter in *Advances in Experimental Medicine and Biology* (a Springer book series).
+- **BSc Botany and Biotechnology, Kerala University** (2013 to 2016). No further detail known yet (college name, highlights: ask Saravana).
+- **UGC-NET, Assistant Professor, Life Sciences**, qualified 2019.
+- **Publications:** two book chapters and three research articles, listed in full below.
+
+### Publications (confirmed: Saravana's own list, used on publications.html)
+
+Newest first. Authors are as Saravana gave them; "[...]" marks names he left out.
+
+- **Journal article, 2026.** Bi-layered polycarbonate urethane/alginate di-aldehyde crosslinked gelatin membrane as a potential biomaterial for wound healing applications. Prathyusha, Resmi Rajalekshmi, Saravana Perumal R [...], Ramesh Parameswaran. *Journal of Biomaterials Science Polymer Edition*, March 2026. DOI 10.1080/09205063.2026.2644608. Topics: Biomaterials, Wound Healing.
+- **Journal article, 2022.** Ferulic acid incorporated anti-microbial self cross-linking hydrogel: A promising system for moderately exudating wounds. Anjali Sudha, Resmi Rajalekshmi, Saravana Perumal R [...], Mini Saraswathy. *Journal of Drug Delivery Science and Technology*, May 2022. DOI 10.1016/j.jddst.2022.103446. Topics: Biomaterials, Wound Healing.
+- **Book chapter, 2022.** Emerging strategies in bone tissue engineering. Anitha Radhakrishnan, Sreekanth Sreekumaran, Anjali Sudha [...], Saravana Perumal R. In *Tissue Engineering* (Academic Press), January 2022. DOI 10.1016/b978-0-12-824064-9.00013-7. Topic: Tissue Engineering.
+- **Journal article, 2021.** Biosynthesized Nanosilver from Alginate Dialdehyde: An In Vitro Evaluation. Resmi Rajalekshmi, Parvathy Jayasree, Saravana Perumal R [...], Roy Joseph. *ChemistrySelect*, November 2021. DOI 10.1002/slct.202103220. Topics: Nanotechnology, Biomaterials.
+- **Book chapter, 2019.** Periostin and Integrin Signaling in Stem Cell Regulation. Athira Suresh, Atreyi Biswas, Saravana Perumal R, Satish Khurana. *Advances in Experimental Medicine and Biology*, April 2019. DOI 10.1007/978-981-13-6657-4_16. Topic: Stem Cells.
+
+The one-line summaries on each card are Saravana's own.
+
+### Workshop colleges (confirmed by Saravana, Nov 2026, used on ai-workshops/index.html)
+
+Colleges where he has conducted workshops, with the full official names he confirmed:
+
+- LBS Institute of Technology for Women, Poojappura, Thiruvananthapuram, Kerala
+- National College, Manacaud, Thiruvananthapuram, Kerala
+- Government College for Women, Thiruvananthapuram, Kerala
+- E.G.S. Pillay Engineering College, Nagapattinam, Tamil Nadu
+
+Don't state whether a workshop was online or in person, or give dates or numbers, unless Saravana confirms them. Blackbox Learning and an institution in Kalliyoor were in his list too, but he chose to leave them off.
+
+### Skills and technologies (confirmed: Saravana's own list, used on skills.html)
+
+Focus areas: LLMs & Agentic AI (focus of current work), Data Science & ML (since 2023), Deep Learning (research applications), AI Deployment (full-stack integration), Teaching & Mentoring (100+ learners since 2024; added to the top row at Saravana's request).
+
+- **LLMs & Agentic AI:** LangChain (core framework used), RAG (production systems built), Agentic AI (multi-agent orchestration), OpenAI API (LLM integration), LLaMA3 (via Groq API), HuggingFace (Transformers in LangChain pipelines), vector DBs (Pinecone, ChromaDB, AstraDB, FAISS).
+- **Data Science & ML:** Python (primary language), SQL (data extraction), Scikit-Learn (core ML library), Pandas (data manipulation), MLflow (experiment tracking), EDA (statistical analysis).
+- **Deep Learning:** PyTorch (familiar), TensorFlow (primary deep learning framework), CNNs (medical imaging focus), Transformers (self-attention models), YOLO (computer vision).
+- **AI Deployment:** Docker (containerization), Flask (backend API), Streamlit (internal tool UI), AWS (basic cloud ops), REST APIs (API design).
+- **Life Sciences Research:** Molecular Biology (M.Sc level), Cell Culture (lab techniques), Microbiology (research studies), Histology (tissue analysis), 3D Bioprinting (regenerative medicine), HPLC / SEM / TEM (analytical tools).
+- **Teaching & Mentoring:** Curriculum Development (100+ students), Mentorship (career guidance), Workshops (hands-on sessions), Student Engagement (active learning).
+
+Keep the notes as Saravana wrote them. Never turn them into percentages or skill bars.
+
+### Copy Claude wrote (Saravana asked for more copy, Nov 2026)
+
+Saravana asked Claude to "write more from your side". The following copy was written by Claude from the facts in this file. It adds explanation and framing, not new facts, so treat it as editable copy, never as a source of facts:
+
+- index.html hero (Nov 2026), written from Saravana's brief ("Who wants to learn AI? Everyone: kids, senior citizens and all. Who can learn AI? Everyone, if they have a mentor like me"): the H1 "Who can learn AI? Everyone, with the right mentor.", both paragraphs and the audience tags. It says everyone *can* learn AI. Don't claim he has taught kids or senior citizens unless he confirms it.
+- index.html "Thoughts I hear every day, and my answers" section (#pain-points): built from Saravana's own list of learner pain points and his ranked table (Nov 2026). Tone rule from Saravana: don't scare people; present each pain point as a common thought, followed by "My answer". The top seven follow his ranking; the other 19 are grouped as Starting out, Careers and study, At work, and Trust and safety. The wording of the thoughts and answers is Claude's; every answer is built from facts and copy in this file. Keep any new answer to that standard.
+- skills.html: the page intro and the one-line summary under each skill group heading.
+- publications.html: the page intro only. The publications themselves (titles, authors, venues, summaries, topics, DOIs) are Saravana's own. The "5+ years research" stat comes from his portfolio template. A "Professional achievements" section was removed at Saravana's request (Nov 2026); don't add it back unless he asks.
+- experience.html#education: the three "How it shapes my teaching" points; the "Why it matters for you" line on the Diploma; the plain-words explanation of the dissertation and the bioinformatics line on the MSc; the longer BSc line; the UGC-NET and AEMB explanations; the extra line on the Languages card.
+- Page H1s, section headings and short connecting lines on about.html, experience.html, services.html, projects.html, blog.html, contact.html and the three service landing pages.
+
+### Other facts
+
 - 18 personal AI projects: RAG chatbots (ChromaDB, Pinecone, AstraDB, FAISS), LangChain agents, text to SQL, LoRA/QLoRA fine-tuning, AWS Bedrock and Lambda apps, YOLO and CNN computer vision (including brain tumour detection from MRI).
 - Languages: English, Malayalam, Tamil, Hindi.
 - Trained and mentored 100+ students and professionals (confirmed by Saravana; do not state a higher number).
@@ -46,7 +103,7 @@ Research & Life Sciences:
 ## Open items (ask Saravana, do not guess)
 
 1. ~~One email and one base city.~~ Resolved: email is saravanaperumalr14@gmail.com, base city Trivandrum. Use this set everywhere, including schema and footer. Do not display any phone number on the site (Saravana's request): no phone line, no `telephone` in schema, and the WhatsApp number is never shown as text. WhatsApp is reached only through wa.me buttons labelled "Message on WhatsApp".
-2. Named clients or institutions he may mention.
+2. Named clients or institutions he may mention. Partly resolved: four colleges where he has run workshops are confirmed (see "Workshop colleges" under the facts). Ask before naming any company or other institution.
 3. Two or three concrete outcomes from past training.
 4. Testimonials (name, role, one or two lines).
 5. Typical workshop length, group size, and what participants receive afterwards.
@@ -54,7 +111,25 @@ Research & Life Sciences:
 7. Real photos of him teaching (needed for hero image and alt text).
 8. The live domain, for canonical URL and schema.
 9. Research span. The dated research roles run Nov 2017 to Nov 2023 (about six years), but the page copy says "about seven years in research". Confirm which figure to use before changing the copy.
-10. Titles and links for the second book chapter and the two research articles.
+10. ~~Titles and links for the publications.~~ Resolved: Saravana supplied all five (see "Publications" under the facts).
+
+## Site as built (Nov 2026)
+
+Static HTML/CSS/JS, no build step. Preview by opening the files directly, or with `python -m http.server` in the repo root.
+
+- **Pages:** `index.html` (home), `about.html`, `experience.html`, `skills.html`, `publications.html`, `services.html`, `projects.html`, `blog.html`, `contact.html`, plus four service landing pages, each an `index.html` in its own folder: `ai-trainer-in-kerala/`, `corporate-ai-training/`, `ai-workshops/`, `ai-mentor/`. Internal links point to explicit `.html` files so pages also work when opened from disk; canonical URLs use the clean paths.
+- **Navigation:** Home, About, Experience, Skills, Publications, Services (a dropdown listing the four landing pages), Projects, Blog, Contact. The full menu needs about 1200px; below that it collapses into the "Menu" button (breakpoint 1200px in styles.css and main.js). Measure before adding another item. The header, footer and contact band are copied into all 13 pages, so a change to one must be made in all of them.
+- **Publications page:** each publication is an `article.pubs-card` with its cover (or a pixel icon), type and year, linked title, authors (Saravana's name in `<strong>`), venue, summary, topic tags and DOI. There are no topic filter buttons (removed at Saravana's request). A commented-out note at the end of the list explains how to add one.
+- **Assets:** `assets/css/styles.css` holds the palette tokens on `:root`, all components, and the paper-grain background texture (at the end). `assets/js/main.js` handles the mobile menu, builds the FAQPage JSON-LD from the visible FAQ, turns the contact form into a prefilled WhatsApp or email message (there is no backend), and moves the career timeline's "now" marker to today.
+- **Design brief:** warm ivory #FAF6EC (background, text on dark), slate #3F4650 (body text, headline, and the footer background), ink blue #1E2F57 (buttons, subheadings, the call-to-action band and every other dark band). Saravana's rule (Nov 2026): slate grey as a background is for the footer only; all other dark sections use ink blue. Playfair Display 800 for the main headline and 700 for other headings; Tinos 18px for body text and buttons (buttons 700); navigation in Tinos small caps with wide letter spacing.
+- **About page career timeline:** bar positions are percentages of Jan 2017 to Dec 2027, written into the HTML. When a role changes, update both the timeline and experience.html. Research bars use #7484AB with a hatch, AI bars use ink blue; this pair passed the dataviz colour validator (slate with ink blue failed).
+- **Icons:** pixel-art icons only, matching Saravana's portfolio site exactly: Pixelarticons (MIT, Gerrit Halfmann; data from `@iconify-json/pixelarticons` 1.2.9) plus four custom ones (brain, dna, graduation-cap, microscope). All icon data lives in one map, `assets/icons/icons.json`, and one helper, `tools/icons.py`, holds the name list (same names as the portfolio) and renders them. To add an icon to a page, write `<i class="ico ico-NAME"></i>` (extra classes allowed after the name), then run `python tools/icons.py render`. It inlines the SVG and re-syncs every existing icon. Unknown names show the circle-dot fallback. Every icon is `fill="currentColor"`, `shape-rendering="crispEdges"`, `aria-hidden`, and shown at 24px or 48px only (other sizes blur the pixels). An icon that is the only content of a link or button needs an `aria-label` on that link or button. `python tools/icons.py test-page` rebuilds `tools/icon-test.html` (every icon at 24px and 48px on light and dark). Attribution is in `CREDITS.md`.
+- **No emoji** anywhere on the site. Icons replace them.
+- **WhatsApp:** every WhatsApp link uses the pixel `whatsapp` icon (from Pixelarticons). Every page also has a floating "WhatsApp" button (`a.wa-float`, just before `</body>`), which shrinks to an icon-only round button on phones and keeps its `aria-label`. It is part of the shared page chrome, like the header and footer.
+- **Images:** only the publication covers so far, in `assets/img/publications/` (WebP, 192px wide, shown at 96px, lazy-loaded, `alt=""` because the card title names the work). All five publications have their cover. A publication added without a cover gets the pixel icon box instead (book-open for a chapter, file-text for an article). No photos of Saravana yet. Each photo spot is an `.img-slot` placeholder with an HTML comment holding the `<img>` tag to swap in (file name, size, alt text).
+- **Line endings:** the HTML files use CRLF. Keep them when editing.
+- **MCP server:** `mcp_server/` (Python, `mcp` 2.3.0, where `FastMCP` is now `MCPServer`). It reads the HTML at request time and relies on specific class names (listed in `mcp_server/README.md`). Tests: `mcp_server/.venv/Scripts/python -m pytest mcp_server/tests -q`. It's registered for Claude Code in `.mcp.json`.
+- **Git:** commit messages carry no Claude co-author line (Saravana's request). `todo.md` is Saravana's personal notes; don't commit it unless asked.
 
 ## SEO metadata
 
@@ -100,7 +175,7 @@ Trust line: Gen AI Engineer at Blackbox Learning · 100+ learners trained and me
 
 **Why a biologist makes a good AI trainer**
 
-I spent about seven years in research, at IISER Thiruvananthapuram, ICAR's Central Institute of Brackishwater Aquaculture in Chennai, and Sree Chitra Tirunal Institute (SCTIMST), where I worked for over four years as a Senior Research Fellow. I've published two book chapters and two research articles. I qualified the UGC-NET for Assistant Professor in Life Sciences in 2019.
+I spent about seven years in research, at IISER Thiruvananthapuram, ICAR's Central Institute of Brackishwater Aquaculture in Chennai, and Sree Chitra Tirunal Institute (SCTIMST), where I worked for over four years as a Senior Research Fellow. I've published two book chapters and three research articles. I qualified the UGC-NET for Assistant Professor in Life Sciences in 2019.
 
 In 2023 I moved into data science, then into generative AI. I learned it the hard way: reading, building, breaking things, rebuilding. That's why I teach it the way I do. I explain one idea at a time, I show it working, and I make sure you build something yourself before the session ends.
 
@@ -229,4 +304,4 @@ Footer line: Saravana Perumal R, AI trainer and mentor, Trivandrum (Thiruvananth
 - Page renders at `/ai-trainer-in-kerala/` with the exact title, description and H1 above.
 - Both JSON-LD blocks validate in Google's Rich Results Test.
 - No placeholder text, `YOUR-DOMAIN` or `TODO` left in the shipped page.
-- `pytest` passes, `knowledge_base/services.md` added and the index rebuilt.
+- The MCP server tests pass (`mcp_server/tests`). (Adding `knowledge_base/services.md` and rebuilding the index applies only to the Django portfolio.)

@@ -28,7 +28,7 @@
         toggle.focus();
       }
     });
-    window.matchMedia('(min-width: 1100px)').addEventListener('change', function (mq) {
+    window.matchMedia('(min-width: 1200px)').addEventListener('change', function (mq) {
       if (mq.matches) setNav(false);
     });
   }
@@ -137,6 +137,23 @@
           encodeURIComponent(subject) + '&body=' + encodeURIComponent(compose());
       });
     }
+  }
+
+  /* ---------- Career timeline: move "now" and the ongoing role to today ----------
+     The HTML ships with positions computed for the build date, so it reads
+     correctly without JS; this keeps them current. */
+  var gantt = doc.querySelector('[data-gantt]');
+  if (gantt) {
+    var startParts = (gantt.getAttribute('data-start') || '2017-01').split('-');
+    var totalMonths = parseFloat(gantt.getAttribute('data-months')) || 132;
+    var today = new Date();
+    var monthsIn = (today.getFullYear() - parseInt(startParts[0], 10)) * 12 +
+      (today.getMonth() - (parseInt(startParts[1], 10) - 1)) + today.getDate() / 31;
+    var nowPct = Math.max(0, Math.min(100, (monthsIn / totalMonths) * 100));
+    gantt.style.setProperty('--now', nowPct.toFixed(2) + '%');
+    gantt.querySelectorAll('[data-ongoing]').forEach(function (track) {
+      track.style.setProperty('--e', nowPct.toFixed(2) + '%');
+    });
   }
 
   /* ---------- Footer year ---------- */

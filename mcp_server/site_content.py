@@ -249,6 +249,8 @@ def experience() -> list[dict]:
     page = get_page("experience")
     out = []
     for group in main_node(page).find_all("div", cls="timeline-group"):
+        if "timeline-group--education" in group.classes:
+            continue  # degrees live in the same page; see education()
         title_node = group.find(cls="timeline-group-title")
         group_title = title_node.inline_text() if title_node else ""
         area = "research" if "research" in group_title.lower() else "ai"
@@ -272,6 +274,82 @@ def experience() -> list[dict]:
                 "current": "is-current" in item.classes,
             })
     return out
+
+
+def education() -> dict:
+    """Degrees and qualifications, from the Education section of the Experience page."""
+    page = get_page("experience")
+    section = next((n for n in main_node(page).find_all("section") if n.attrs.get("id") == "education"), None)
+    if section is None:
+        return {"degrees": [], "qualifications": []}
+    degrees = []
+    group = section.find("div", cls="timeline-group--education")
+    timeline = group.find("ol", cls="timeline") if group else None
+    for item in timeline.children if timeline else []:
+        if not isinstance(item, Node) or item.tag != "li":
+            continue
+        body = item.find(cls="timeline-body")
+        tags = body.find("ul", cls="tags")
+        degrees.append({
+            "dates": item.find(cls="timeline-when").inline_text(),
+            "degree": (body.find("h4") or body.find("h3")).inline_text(),
+            "institution": body.find("p", cls="timeline-org").inline_text(),
+            "details": " ".join(p.inline_text() for p in body.find_all("p", cls="timeline-desc")),
+            "subjects": [li.inline_text() for li in tags.find_all("li")] if tags else [],
+        })
+    qualifications = []
+    for card in section.find_all("div", cls="qual-card"):
+        head = card.find(cls="qual-head")
+        name = head.inline_text() if head else ""
+        text = card.inline_text()
+        qualifications.append({"name": name, "details": text[len(name):].strip() if text.startswith(name) else text})
+    return {"degrees": degrees, "qualifications": qualifications}
+
+
+def skills() -> dict:
+    """Focus areas and skill groups from the Skills page."""
+    page = get_page("skills")
+    main = main_node(page)
+    focus = [{"area": c.find("h3").inline_text(), "note": c.find("p").inline_text()}
+             for c in main.find_all("a", cls="focus-card")]
+    groups = []
+    for group in main.find_all("div", cls="skill-group"):
+        head = group.find(cls="skill-group-head")
+        groups.append({
+            "id": group.attrs.get("id"),
+            "group": head.find("h3").inline_text(),
+            "summary": head.find("p").inline_text(),
+            "skills": [{"name": t.find("strong").inline_text(), "note": t.find("span").inline_text()}
+                       for t in group.find_all("li", cls="skill-tile")],
+        })
+    return {"focus_areas": focus, "groups": groups}
+
+
+def publications() -> dict:
+    """Stats and publications from the Publications page."""
+    page = get_page("publications")
+    main = main_node(page)
+    stats_node = main.find("dl", cls="pubs-stats")
+    stats = {}
+    for item in stats_node.find_all("div") if stats_node else []:
+        dt, dd = item.find("dt"), item.find("dd")
+        if dt and dd:
+            stats[dd.inline_text()] = dt.inline_text()
+    items = []
+    for card in main.find_all("article", cls="pubs-card"):
+        title = card.find("h3", cls="pubs-title")
+        link = title.find("a") if title else None
+        tags = card.find("ul", cls="tags")
+        items.append({
+            "type": card.find("p", cls="pub-type").inline_text(),
+            "title": title.inline_text() if title else "",
+            "url": link.attrs.get("href") if link else None,
+            "authors": (card.find("p", cls="pubs-authors") or Node("p", {}, None)).inline_text(),
+            "venue": (card.find("p", cls="pubs-meta") or Node("p", {}, None)).inline_text(),
+            "summary": (card.find("p", cls="pubs-summary") or Node("p", {}, None)).inline_text(),
+            "topics": [li.inline_text() for li in tags.find_all("li")] if tags else [],
+        })
+    return {"stats": stats, "publications": items}
 
 
 def projects() -> list[dict]:

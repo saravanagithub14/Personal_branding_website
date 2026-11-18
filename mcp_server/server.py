@@ -80,6 +80,35 @@ def get_experience(area: Literal["all", "ai", "research"] = "all") -> list[dict]
     return roles if area == "all" else [r for r in roles if r["area"] == area]
 
 
+@mcp.tool(title="Education and qualifications", annotations=READ_ONLY)
+def get_education() -> dict:
+    """Saravana's degrees (BSc, MSc, Diploma in Data Science) with dates, institution and
+    details, plus qualifications: UGC-NET, publications and languages."""
+    return site.education()
+
+
+@mcp.tool(title="Skills and technologies", annotations=READ_ONLY)
+def get_skills(group: str = "") -> dict:
+    """Saravana's skills: four focus areas, then six groups of tools and methods (LLMs and
+    agentic AI, data science and ML, deep learning, AI deployment, life sciences research,
+    teaching and mentoring), each skill with a short note such as "Primary language".
+    Pass `group` (e.g. "deep learning") to return only matching groups."""
+    data = site.skills()
+    if group.strip():
+        needle = group.strip().lower()
+        data["groups"] = [g for g in data["groups"]
+                          if needle in g["group"].lower() or needle in (g["id"] or "")]
+    return data
+
+
+@mcp.tool(title="Publications", annotations=READ_ONLY)
+def get_publications() -> dict:
+    """Saravana's publication counts and the publications listed on the site (type, year,
+    title, venue, summary, topics). Only publications with full details on the site are
+    listed; the counts cover all of them."""
+    return site.publications()
+
+
 @mcp.tool(title="AI projects", annotations=READ_ONLY)
 def get_projects() -> list[dict]:
     """The AI project areas Saravana has built and teaches from (RAG chatbots, agents,

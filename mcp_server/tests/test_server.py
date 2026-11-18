@@ -47,6 +47,39 @@ def test_experience():
     assert "Stem Cell Biology" in roles[-1]["skills"]
 
 
+def test_education():
+    edu = site.education()
+    assert [d["degree"] for d in edu["degrees"]] == [
+        "Diploma in Data Science", "MSc Biotechnology and Bioinformatics", "BSc Botany and Biotechnology"]
+    assert "IISER" in edu["degrees"][1]["details"]
+    names = [q["name"] for q in edu["qualifications"]]
+    assert names == ["UGC-NET", "Publications", "Languages"]
+    assert "2019" in edu["qualifications"][0]["details"]
+
+
+def test_skills():
+    data = site.skills()
+    assert [f["area"] for f in data["focus_areas"]] == [
+        "LLMs & Agentic AI", "Data Science & ML", "Deep Learning", "AI Deployment",
+        "Teaching & Mentoring"]
+    counts = {g["group"]: len(g["skills"]) for g in data["groups"]}
+    assert counts == {"LLMs & Agentic AI": 7, "Data Science & ML": 6, "Deep Learning": 5,
+                      "AI Deployment": 5, "Life Sciences Research": 6, "Teaching & Mentoring": 4}
+    llm = data["groups"][0]["skills"]
+    assert {"name": "LLaMA3", "note": "Via Groq API"} in llm
+
+
+def test_publications():
+    data = site.publications()
+    assert data["stats"]["Book chapters"] == "2" and data["stats"]["Research articles"] == "3"
+    pubs = data["publications"]
+    assert len(pubs) == 5 and pubs[0]["type"] == "Journal article · 2026"
+    assert pubs[-1]["title"] == "Periostin and Integrin Signaling in Stem Cell Regulation"
+    assert pubs[-1]["url"] == "https://doi.org/10.1007/978-981-13-6657-4_16"
+    assert "Advances in Experimental Medicine and Biology" in pubs[-1]["venue"]
+    assert set(data["stats"]) == {"Book chapters", "Research articles", "Years research"}
+
+
 def test_services_projects_faq():
     services = site.services()
     assert len(services) == 6
@@ -97,8 +130,9 @@ def test_end_to_end_over_stdio():
 
     init, tools, faq, exp, page = asyncio.run(run())
     assert init.server_info.name == "saravana-site"
-    assert tools == {"list_pages", "get_page", "get_services", "get_experience", "get_projects",
-                     "get_faq", "get_contact", "search_site", "draft_enquiry"}
+    assert tools == {"list_pages", "get_page", "get_services", "get_experience", "get_education",
+                     "get_skills", "get_publications", "get_projects", "get_faq", "get_contact",
+                     "search_site", "draft_enquiry"}
     assert not faq.is_error and "AI trainer in Kerala" in faq.content[0].text
     assert not exp.is_error and "Senior Research Fellow" in json.dumps(exp.structured_content)
     assert "Let's Plan Your AI Training" in page.contents[0].text

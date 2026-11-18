@@ -12,6 +12,9 @@ It reads the HTML pages each time it's asked, so its answers always match the li
 | `get_page(slug)` | The visible text of one page |
 | `get_services` | The six training and mentoring services, with links to detail pages |
 | `get_experience(area)` | Roles with dates, organisation, description and skills (`all`, `ai` or `research`) |
+| `get_education` | Degrees with dates, institution and details; UGC-NET, publications and languages |
+| `get_skills(group)` | Four focus areas and six skill groups, each skill with a short note |
+| `get_publications` | Publication counts and the publications listed on the site |
 | `get_projects` | AI project areas and the tools used |
 | `get_faq` | The FAQ from the AI trainer in Kerala page |
 | `get_contact` | Email, WhatsApp link, profiles, base city, cities covered, booking and fees policy |
