@@ -1129,30 +1129,128 @@ a:hover { text-decoration-thickness: 2px; }
 
 /* ---------- Experience timeline ---------- */
 
+/* Mobile: rail on the left, date above each card.
+   Desktop: date column | rail with dots | card. Date and role title share a baseline. */
 .timeline {
+  --tl-date: 190px;   /* date column width (desktop) */
+  --tl-gap: 56px;     /* space between date and card; the rail runs down its middle */
+  --tl-dot: 16px;
   list-style: none;
   margin: 0;
   padding: 0;
-  border-top: 1px solid var(--line-strong);
+  max-width: 900px;
 }
-.timeline li {
+.timeline > li {
+  position: relative;
   display: grid;
-  gap: 4px 32px;
-  padding: 22px 0;
-  border-bottom: 1px solid var(--line-strong);
+  gap: 8px;
+  padding: 0 0 28px 36px;
 }
-@media (min-width: 760px) {
-  .timeline li { grid-template-columns: 230px 1fr; }
+.timeline > li:last-child { padding-bottom: 0; }
+
+/* Rail */
+.timeline > li::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--tl-dot) / 2 - 1px);
+  top: 6px;
+  bottom: -6px;
+  width: 2px;
+  background: var(--line-strong);
 }
+.timeline > li:last-child::before { bottom: auto; height: 12px; }
+
+/* Dot */
+.timeline > li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 4px;
+  width: var(--tl-dot);
+  height: var(--tl-dot);
+  border-radius: 50%;
+  background: var(--ivory);
+  border: 2px solid var(--ink);
+}
+.timeline > li.is-current::after {
+  background: var(--ink);
+  box-shadow: 0 0 0 5px rgba(30, 47, 87, 0.12);
+}
+
 .timeline-when {
   font-variant: small-caps;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.timeline-body {
+  background: var(--ivory-deep);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px 22px 20px;
+}
+.timeline > li.is-current .timeline-body { border-left: 3px solid var(--ink); }
+.timeline-body h3,
+.timeline-body h4 {
+  font-family: var(--font-head);
   font-weight: 700;
   color: var(--ink);
+  font-size: clamp(1.2rem, 1.08rem + 0.5vw, 1.4rem);
+  margin: 0 0 0.25em;
+  line-height: 1.25;
 }
-.timeline h3 { margin: 0 0 0.2em; }
-.timeline-org { margin: 0 0 0.4em; font-style: italic; }
-.timeline p:last-child { margin-bottom: 0; }
+.timeline-body .tags { margin-top: 14px; }
+.timeline-body .timeline-desc { margin-top: 0.7em; font-size: 1.02rem; }
+
+/* Groups: AI & Data Science, Research & Life Sciences */
+.timeline-group + .timeline-group { margin-top: 56px; }
+.timeline-group-title {
+  font-family: var(--font-body);
+  font-variant: small-caps;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  font-size: 1.15rem;
+  color: var(--slate);
+  margin: 0 0 22px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--line-strong);
+  max-width: 900px;
+}
+@media (min-width: 760px) {
+  .timeline-group-title {
+    padding-left: calc(190px + 56px);  /* line up with the cards: --tl-date + --tl-gap */
+  }
+}.timeline-org { margin: 0; font-style: italic; font-size: 1.02rem; }
+.timeline-body p + p { margin-top: 0.7em; }
+.timeline-body p:last-child { margin-bottom: 0; }
+
+@media (min-width: 760px) {
+  .timeline > li {
+    grid-template-columns: var(--tl-date) minmax(0, 1fr);
+    column-gap: var(--tl-gap);
+    align-items: baseline;
+    padding: 0 0 32px;
+  }
+  .timeline-when {
+    text-align: right;
+    white-space: normal;
+  }
+  /* Rail and dot move to the middle of the gap, level with the role title */
+  .timeline > li::before {
+    left: calc(var(--tl-date) + var(--tl-gap) / 2 - 1px);
+    top: 30px;
+    bottom: -30px;
+  }
+  .timeline > li:last-child::before { display: none; }
+  .timeline > li::after {
+    left: calc(var(--tl-date) + var(--tl-gap) / 2 - var(--tl-dot) / 2);
+    top: 26px;
+  }
+}
 
 /* ---------- Tags ---------- */
 

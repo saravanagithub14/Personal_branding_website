@@ -19,8 +19,22 @@ Rank and convert for "AI trainer" (primary) and "AI trainer in Kerala". The page
 
 - Name: Saravana Perumal R. Based in Trivandrum (Thiruvananthapuram), Kerala, India.
 - Current role: Gen AI Engineer at Blackbox Learning (since April 2026).
-- Dexpro Innovations: Jr. Data Scientist (Training & Development) Feb 2024 to Feb 2025, Data Scientist Apr 2025 to Mar 2026. Created workshops and learning material, mentored students toward jobs.
-- Research career about seven years: IISER Thiruvananthapuram, ICAR-CIBA Chennai, SCTIMST (Senior Research Fellow, Jul 2019 to Nov 2023). Two book chapters and two research articles. UGC-NET (Assistant Professor, Life Sciences) 2019.
+- Two book chapters and two research articles, including a 2019 book chapter in Advances in Experimental Medicine and Biology (from the IISER dissertation work). UGC-NET (Assistant Professor, Life Sciences) 2019.
+
+### Experience (confirmed by Saravana, used on about.html)
+
+AI & Data Science:
+
+- **Gen AI Engineer, Blackbox Learning** (Apr 2026 to now). Building generative AI and agentic AI systems in Thiruvananthapuram: RAG pipelines, LangChain agents, vector databases, LLM fine-tuning (LoRA/QLoRA), generative AI deployment on AWS.
+- **Data Scientist, Dexpro Innovations Pvt Ltd** (Apr 2025 to Mar 2026). Data analysis and statistical models for decisions; created and delivered data science workshops and learning resources; mentored students in data analysis, machine learning and statistical modelling toward jobs. Promoted from Jr. Data Scientist.
+- **Jr. Data Scientist (Training & Development), Dexpro Innovations Pvt Ltd** (Feb 2024 to Feb 2025). First full-time data science role. Data analysis and statistical models, training material and workshops, one-on-one mentoring for data science careers.
+- **Data Science Intern, Edure** (Sep 2023 to Feb 2024). Six-month internship alongside the Diploma in Data Science, Thiruvananthapuram. The move from life sciences research into data science.
+
+Research & Life Sciences:
+
+- **Senior Research Fellow, SCTIMST (Govt. of India)** (Jul 2019 to Nov 2023). Biomedical technology at Sree Chitra Tirunal Institute for Medical Sciences and Technology: 3D bioprinting of skin, an antimicrobial self-crosslinking hydrogel, biosynthesized nanosilver. Led and managed research projects with interdisciplinary teams under regulatory standards, statistical analysis of experimental data, reports, presentations and publications.
+- **Young Professional II, CIBA, ICAR (Govt. of India)** (Mar 2019 to Jul 2019). Under Dr. M. Makesh on the ICAR-CRP project on Vaccines and Diagnostics, Chennai: vaccines against Nervous Necrosis Virus in sea bass, PCR-based disease diagnosis in aquaculture.
+- **Masters Dissertation Scholar, Stem Cell Biology, IISER Thiruvananthapuram** (Nov 2017 to Nov 2018). Periostin-integrin signalling in the regulation of hematopoiesis in the bone marrow niche; cell culture, molecular biology, microscopy. Led to the 2019 book chapter above.
 - Education: BSc Botany and Biotechnology (Kerala University, 2013 to 2016), MSc Biotechnology and Bioinformatics (KUFOS, 2016 to 2018), Diploma in Data Science (Edure, 2023 to 2024).
 - 18 personal AI projects: RAG chatbots (ChromaDB, Pinecone, AstraDB, FAISS), LangChain agents, text to SQL, LoRA/QLoRA fine-tuning, AWS Bedrock and Lambda apps, YOLO and CNN computer vision (including brain tumour detection from MRI).
 - Languages: English, Malayalam, Tamil, Hindi.
@@ -39,6 +53,8 @@ Rank and convert for "AI trainer" (primary) and "AI trainer in Kerala". The page
 6. His signature session topic.
 7. Real photos of him teaching (needed for hero image and alt text).
 8. The live domain, for canonical URL and schema.
+9. Research span. The dated research roles run Nov 2017 to Nov 2023 (about six years), but the page copy says "about seven years in research". Confirm which figure to use before changing the copy.
+10. Titles and links for the second book chapter and the two research articles.
 
 ## SEO metadata
 
