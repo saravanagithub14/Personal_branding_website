@@ -156,6 +156,20 @@
     });
   }
 
+  /* ---------- Homepage thought blobs: tap to open (touch screens have no hover) ---------- */
+  var blobs = doc.querySelectorAll('[data-blob]');
+  blobs.forEach(function (blob) {
+    blob.addEventListener('click', function () {
+      var open = !blob.classList.contains('is-open');
+      blobs.forEach(function (b) { b.classList.remove('is-open'); });
+      blob.classList.toggle('is-open', open);
+    });
+    blob.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); blob.click(); }
+      if (e.key === 'Escape') { blob.classList.remove('is-open'); blob.blur(); }
+    });
+  });
+
   /* ---------- Footer year ---------- */
   doc.querySelectorAll('[data-year]').forEach(function (el) {
     el.textContent = String(new Date().getFullYear());
