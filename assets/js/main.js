@@ -170,6 +170,43 @@
     });
   });
 
+  /* ---------- Hero crane jar: each crane unfolds into a learner's note ----------
+     Notes live in <template id="crane-notes"> in index.html (real reviews only). */
+  var craneDialog = doc.getElementById('crane-note');
+  var craneSpots = doc.querySelectorAll('.crane-spot');
+  if (craneDialog && craneSpots.length) {
+    var noteTpl = doc.getElementById('crane-notes');
+    var notes = noteTpl ? Array.prototype.slice.call(noteTpl.content.querySelectorAll('blockquote')) : [];
+    var paper = craneDialog.querySelector('.crane-paper');
+    var textEl = craneDialog.querySelector('.crane-text p');
+    var whoEl = craneDialog.querySelector('.crane-who');
+    var lastSpot = null;
+
+    var openNote = function (spot) {
+      var i = parseInt(spot.getAttribute('data-crane'), 10) || 0;
+      paper.style.setProperty('--paper', spot.getAttribute('data-color') || '#F6D06E');
+      whoEl.textContent = '';
+      if (notes.length) {
+        var note = notes[i % notes.length];
+        textEl.textContent = note.textContent.replace(/\s+/g, ' ').trim();
+        var name = note.getAttribute('data-name'), role = note.getAttribute('data-role');
+        if (name) { var b = doc.createElement('strong'); b.textContent = name; whoEl.appendChild(b); }
+        if (role) { whoEl.appendChild(doc.createTextNode(role)); }
+      } else {
+        textEl.textContent = 'Notes from my learners are being folded into this jar. Check back soon.';
+      }
+      lastSpot = spot;
+      if (typeof craneDialog.showModal === 'function') { craneDialog.showModal(); } else { craneDialog.setAttribute('open', ''); }
+    };
+    var closeNote = function () {
+      if (typeof craneDialog.close === 'function') { craneDialog.close(); } else { craneDialog.removeAttribute('open'); }
+    };
+    craneSpots.forEach(function (spot) { spot.addEventListener('click', function () { openNote(spot); }); });
+    craneDialog.querySelector('.crane-close').addEventListener('click', closeNote);
+    craneDialog.addEventListener('click', function (e) { if (e.target === craneDialog) { closeNote(); } });
+    craneDialog.addEventListener('close', function () { if (lastSpot) { lastSpot.focus(); } });
+  }
+
   /* ---------- Footer year ---------- */
   doc.querySelectorAll('[data-year]').forEach(function (el) {
     el.textContent = String(new Date().getFullYear());

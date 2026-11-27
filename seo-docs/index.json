@@ -1,0 +1,1355 @@
+{
+  "note": "Written by tools/seo_docs.py. pages is the reviewed baseline, URL to content hash.",
+  "last_crawl": "2026-11-24T16:14:07Z",
+  "last_checked": "2026-11-26T05:11:29Z",
+  "last_ack": "2026-11-26T04:58:57Z",
+  "pages": {
+    "https://developers.google.com/search/docs": {
+      "title": "Documentation to Improve SEO",
+      "hash": "ae2e800bdeced9a9e1cdf8708bb6848aa6dde6b413b2912cc72a8bda374fb9e0",
+      "file": "snapshots/docs.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance": {
+      "title": "Overview of Search appearance topics",
+      "hash": "eb263ed6221030afff654116ff715eb6b0ae044307368faf46e1ad5378b3b7f3",
+      "file": "snapshots/docs--appearance.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/ad-network-and-translation": {
+      "title": "Enabling your ad network to work with translation-related Google Search features",
+      "hash": "94d6078378d0335147271dfc1747197281374dc5a7e323f88a17b9ec78d43ac7",
+      "file": "snapshots/docs--appearance--ad-network-and-translation.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/aggregator-features": {
+      "title": "Regional differences in Search experience",
+      "hash": "d7ba97fc12d93779de2ae9148be78c78b2471479c558ebbe0d6ddb55498a6f11",
+      "file": "snapshots/docs--appearance--aggregator-features.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/aggregator-unit": {
+      "title": "Aggregator unit in Google Search",
+      "hash": "3c0a5a8190043769c50c069a23b9061b3bfb79a4ce2d5270709ee3d28befc168",
+      "file": "snapshots/docs--appearance--aggregator-unit.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/ai-features": {
+      "title": "AI features and your website",
+      "hash": "59bd9e81c8d1cf08263c0dd2aed15f08e813bac953ceffe5c72aa1768f961df8",
+      "file": "snapshots/docs--appearance--ai-features.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/avoid-intrusive-interstitials": {
+      "title": "Avoid intrusive interstitials and dialogs",
+      "hash": "a70f848e36d533a135b7817cf760c6cf6aefede07bba7cb4721c8d3f7827b489",
+      "file": "snapshots/docs--appearance--avoid-intrusive-interstitials.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/core-updates": {
+      "title": "Google Search's core updates and your website",
+      "hash": "682c04377d26e96025fa94f5f6913e654bcdf65bf7a1f059666c59b127265c86",
+      "file": "snapshots/docs--appearance--core-updates.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/core-web-vitals": {
+      "title": "Understanding Core Web Vitals and Google search results",
+      "hash": "fc8e4154d0f2e916c9c2ae1f8265c34327d95a0c76c028f273e8f9002e33f33c",
+      "file": "snapshots/docs--appearance--core-web-vitals.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/ecosystem-carousel": {
+      "title": "Ecosystem carousel in Google Search",
+      "hash": "9b0cd538ffeb716fb063a4239ccd64a213ad083acc5578367b3f27a6951dc3ba",
+      "file": "snapshots/docs--appearance--ecosystem-carousel.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/enable-web-stories": {
+      "title": "Enable Web Stories on Google",
+      "hash": "b355340b3000c2f80b565fdf5ddd9f1ae980fff8fd7d44c6020c21c88d449fb9",
+      "file": "snapshots/docs--appearance--enable-web-stories.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/enriched-search-results": {
+      "title": "Enriched search results",
+      "hash": "1f7925d721aa24fba73d3a84b50f9a96ed0243381b89d4469b8a9801dd75cfff",
+      "file": "snapshots/docs--appearance--enriched-search-results.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/establish-business-details": {
+      "title": "Establish your business details with Google",
+      "hash": "78d40ca0547e7c3725f90500f6cfb472719d63b23c08b6b8821a3b5caf5d5105",
+      "file": "snapshots/docs--appearance--establish-business-details.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/favicon-in-search": {
+      "title": "Define a favicon to show in search results",
+      "hash": "5ff60239670ee41489204cfd04b6b701ea2b40ad1dffb3c1eaa63a5c66c835f0",
+      "file": "snapshots/docs--appearance--favicon-in-search.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/featured-snippets": {
+      "title": "Featured snippets and your website",
+      "hash": "5a65b69c696037f7f2c42645d2c555ef3609cec323084a870dd507c06fd9a407",
+      "file": "snapshots/docs--appearance--featured-snippets.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/flexible-sampling": {
+      "title": "Flexible Sampling general guidance",
+      "hash": "086bd70e67ce9c5c47be7061decb94274d1189ee9431f17ef12a7fe462b790c3",
+      "file": "snapshots/docs--appearance--flexible-sampling.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/google-discover": {
+      "title": "Discover and your website",
+      "hash": "144a284afbf2c7e68f6bc8aa1fad4e8a596f1803aab0c056885a2ebdd8a0f719",
+      "file": "snapshots/docs--appearance--google-discover.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/google-images": {
+      "title": "Google image SEO best practices",
+      "hash": "ad0f37472abbacb9518f4f1fef0022829e628d99b66a222a19413c3f22af6d68",
+      "file": "snapshots/docs--appearance--google-images.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/job-sites": {
+      "title": "Job sites: aggregator carousel and refinement chip",
+      "hash": "48fe7c79904479969468ba9db0879823bfe21101852a18d5bbb2146bbb87ec77",
+      "file": "snapshots/docs--appearance--job-sites.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/package-tracking": {
+      "title": "Package tracking Early Adopters Program",
+      "hash": "cb33d9ea68bf501ba6ec0689f473a117adc908d6d81f62f2494672d3b93215af",
+      "file": "snapshots/docs--appearance--package-tracking.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/page-experience": {
+      "title": "Understanding page experience in Google Search results",
+      "hash": "4108e1566917a92b5706cce0f4b1c1eecccb392cbc1f721a233c1d5ba87c3744",
+      "file": "snapshots/docs--appearance--page-experience.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/places-sites": {
+      "title": "Places sites: aggregator carousel and refinement chip",
+      "hash": "ee33134e8811d5bd98cfdd26d611704b92d452cb5a2bfce22b9ab17f797bf736",
+      "file": "snapshots/docs--appearance--places-sites.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/preferred-sources": {
+      "title": "Help your readers find your site through preferred sources in Google Search",
+      "hash": "0b67fa1d8d0d40ea0db8dbc2cbfcbfeea2e020788317e24ef31b9d404b180920",
+      "file": "snapshots/docs--appearance--preferred-sources.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/publication-dates": {
+      "title": "Influence your byline dates in Google Search",
+      "hash": "4d5192f09842d50382fd84fdda1adb44d83d95e1d48c0610c032c4a745122566",
+      "file": "snapshots/docs--appearance--publication-dates.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/ranking-systems-guide": {
+      "title": "A guide to Google Search ranking systems",
+      "hash": "aeecd5d93a321dd9b1f24378936891acb9e306c014ed0d2fcafa7addd6358198",
+      "file": "snapshots/docs--appearance--ranking-systems-guide.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/reviews-system": {
+      "title": "Google Search's reviews system and your website",
+      "hash": "9e8fd13aa06142b6451617b1e1b13caa503704591bf90fd0e4b317f67c60509b",
+      "file": "snapshots/docs--appearance--reviews-system.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/search-profiles": {
+      "title": "Add a Search profile badge to your website",
+      "hash": "7aef1fb58d3a64512de5a5c162830430bc802001798abd7344e1e38acecad72a",
+      "file": "snapshots/docs--appearance--search-profiles.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/site-names": {
+      "title": "Provide a site name to Google Search",
+      "hash": "cd38e8007836954c42d503592457d4f68ae40a3ceaa0bf06be58722a653ff97a",
+      "file": "snapshots/docs--appearance--site-names.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/sitelinks": {
+      "title": "Sitelinks",
+      "hash": "9fa19eda14388d30c7fed5bd105c12b19e7572ffdf115f1f9b97b1240c43bb37",
+      "file": "snapshots/docs--appearance--sitelinks.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/snippet": {
+      "title": "Control your snippets in search results",
+      "hash": "ec552a2c2dc56775f1301bdaf37a799387784515d8a75be3f5bd537537b596e7",
+      "file": "snapshots/docs--appearance--snippet.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/south-africa-features": {
+      "title": "Search experiences in South Africa: badge and refinement chip",
+      "hash": "e7a86566226ebbbf830e0d68eccb5517e7bc7cca57fe0b715916dd6cd0b9437b",
+      "file": "snapshots/docs--appearance--south-africa-features.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/spam-updates": {
+      "title": "Google Search spam updates and your site",
+      "hash": "21956ef01fa243843bc4ebacc329dc489043d39a1639f9eff3ad73fda62c089d",
+      "file": "snapshots/docs--appearance--spam-updates.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data": {
+      "title": "Schema Markup Testing Tool",
+      "hash": "b616d3e28bf1d7046d94dcef9d44efbd776efd0876d105db54f0301a64e6b33b",
+      "file": "snapshots/docs--appearance--structured-data.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/article": {
+      "title": "Article (`Article`, `NewsArticle`, `BlogPosting`) structured data",
+      "hash": "bcb151f943e2373de9d248fb3807dd73968a54a3abb725f517ee749e297b334b",
+      "file": "snapshots/docs--appearance--structured-data--article.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/book": {
+      "title": "Book actions (`Book`) structured data",
+      "hash": "6d8fcb0229699fd568071facdc0cd24a86d023267c61035e174715c4c7162699",
+      "file": "snapshots/docs--appearance--structured-data--book.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/breadcrumb": {
+      "title": "Breadcrumb (`BreadcrumbList`) structured data",
+      "hash": "c9084a4d3320a6962f31bb182b35d93ac0d5a7caa3f9e8c7433f65e11809dc87",
+      "file": "snapshots/docs--appearance--structured-data--breadcrumb.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/carousel": {
+      "title": "Carousel (`ItemList`) structured data",
+      "hash": "7af11ed530176af97c4b592c0d00aabc57f3bfc4597f7766eae803adabf9d0b2",
+      "file": "snapshots/docs--appearance--structured-data--carousel.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/carousels-beta": {
+      "title": "Structured data carousels (beta)",
+      "hash": "564a408d65a8b8f5eaeb50ab8fe22624c7589367351eb4aa2a2876d28108cf79",
+      "file": "snapshots/docs--appearance--structured-data--carousels-beta.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/course": {
+      "title": "Course list (`Course`) structured data",
+      "hash": "cb1545a0c68f3ba2c065fe03abc1269366165bf403d180d5be9769f2690c0e47",
+      "file": "snapshots/docs--appearance--structured-data--course.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/dataset": {
+      "title": "Dataset (`Dataset`, `DataCatalog`, `DataDownload`) structured data",
+      "hash": "26f8ab1078762a8b890d56ab85a576023edfa04c9e5f60166d340e78eddf6086",
+      "file": "snapshots/docs--appearance--structured-data--dataset.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/discussion-forum": {
+      "title": "Discussion forum (`DiscussionForumPosting`) structured data",
+      "hash": "ca21c92f4468caae468b4dad3b7b09d791321d4d6ea4c60ed23b36596188e715",
+      "file": "snapshots/docs--appearance--structured-data--discussion-forum.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/education-qa": {
+      "title": "Education Q&A (`Quiz`, `Question`, and `Answer`) structured data",
+      "hash": "2099cfc6bf20e7f8fc60c41f5a47c143146c1ee3aaa7037e632d994042502c06",
+      "file": "snapshots/docs--appearance--structured-data--education-qa.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/employer-rating": {
+      "title": "Employer aggregate rating (`EmployerAggregateRating`) structured data",
+      "hash": "0ac37615c44f6d1fe3eeacab56cd8c188690c1e7148f25fdb14666f2a3804ab0",
+      "file": "snapshots/docs--appearance--structured-data--employer-rating.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/event": {
+      "title": "Event (`Event`) structured data",
+      "hash": "3fb7cafd84570ca85bfaf3d4c788f5f426bb50c7d738d3a5ede2fdbe6b2624d9",
+      "file": "snapshots/docs--appearance--structured-data--event.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/factcheck": {
+      "title": "Fact check (`ClaimReview`) structured data",
+      "hash": "e6d327b9522f43e70a556c25453efd5db267e62ee9e47ceefbba5541bf1b00bc",
+      "file": "snapshots/docs--appearance--structured-data--factcheck.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript": {
+      "title": "Generate structured data with JavaScript",
+      "hash": "9353746bb8f3cba5d8e28afd5d3fd096e9d54b64682bd13a351a925be0124111",
+      "file": "snapshots/docs--appearance--structured-data--generate-structured-data-with-javascript.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/image-license-metadata": {
+      "title": "Image metadata in Google Images",
+      "hash": "30c95b045630212e233d076e57d156909ee5c7059263f2be7afee3f4eca6d175",
+      "file": "snapshots/docs--appearance--structured-data--image-license-metadata.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data": {
+      "title": "Introduction to structured data markup in Google Search",
+      "hash": "6ed6b7ac4e14c036e7e42d00963acbb482697377fcb0550c6489f85109ac079f",
+      "file": "snapshots/docs--appearance--structured-data--intro-structured-data.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/job-posting": {
+      "title": "Job posting (`JobPosting`) structured data for Job Search",
+      "hash": "a70df38a0e7f5ae894ebf4da4b248727e6cb3393f32116d160a8ee966be8c2d5",
+      "file": "snapshots/docs--appearance--structured-data--job-posting.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/local-business": {
+      "title": "Local business (`LocalBusiness`) structured data",
+      "hash": "7d709955c50b41466c973cf14085c874ee2501ffc8e06cfbb0c57dcffc506ef8",
+      "file": "snapshots/docs--appearance--structured-data--local-business.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/loyalty-program": {
+      "title": "Loyalty program (`MemberProgram`) structured data",
+      "hash": "636cab46ff5abe3076b5414a8bc679d01756e54dd759304b701f597ebaba4ab0",
+      "file": "snapshots/docs--appearance--structured-data--loyalty-program.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/math-solvers": {
+      "title": "Math solver (`MathSolver`) structured data",
+      "hash": "512c6d082aa852b7c2245a56cfc5d0ace67aa35dca0cf2f0f5b3afc5c9cc4a21",
+      "file": "snapshots/docs--appearance--structured-data--math-solvers.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/merchant-listing": {
+      "title": "Merchant listing (`Product`, `Offer`) structured data",
+      "hash": "068f8214238dcd3e71e979b1b4f24f4059eb4dd4ca4c9df3b7fbc94a8c5ccc56",
+      "file": "snapshots/docs--appearance--structured-data--merchant-listing.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/movie": {
+      "title": "Movie carousel (`Movie`) structured data",
+      "hash": "4bfebfcf96382b2d8eda02e7a7e0bc31b06509d5cace3fae5b0c7916efc694d9",
+      "file": "snapshots/docs--appearance--structured-data--movie.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/organization": {
+      "title": "Organization (`Organization`) structured data",
+      "hash": "ab10ce24392eac3c5b8b1b9554c52bf3212d65b5cc4ba669601fc922ef91f374",
+      "file": "snapshots/docs--appearance--structured-data--organization.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/paywalled-content": {
+      "title": "Structured data for subscription and paywalled content (`CreativeWork`)",
+      "hash": "309b2090a0865c410a554a4da06961cce58c27939ccae82246b455a9f15ae640",
+      "file": "snapshots/docs--appearance--structured-data--paywalled-content.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/product": {
+      "title": "Introduction to `Product` structured data",
+      "hash": "80b1d774dd501036cf99f320d1da004a2fa557ff3b48c4dd9af030cf1fb462e7",
+      "file": "snapshots/docs--appearance--structured-data--product.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/product-snippet": {
+      "title": "Product snippet (`Product`, `Review`, `Offer`) structured data",
+      "hash": "e2d692650a3d090d698c5715aa5cfe6faa8b04b617112b4dbe40b56e7996b01b",
+      "file": "snapshots/docs--appearance--structured-data--product-snippet.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/product-variants": {
+      "title": "Product variant structured data (`ProductGroup`, `Product`)",
+      "hash": "11bed3fb7f75e72e293b399e4a5d013b602651fc7f26e1171dc816296c88094c",
+      "file": "snapshots/docs--appearance--structured-data--product-variants.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/profile-page": {
+      "title": "Profile page (`ProfilePage`) structured data",
+      "hash": "3f7f103b2ebd1f51db07f6cda96306bcc80f5340cf72c919ab1a17ff7658d4d6",
+      "file": "snapshots/docs--appearance--structured-data--profile-page.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/qapage": {
+      "title": "Q&A (`QAPage`) structured data",
+      "hash": "f10f217bba2a082aad493b664adc450c00eb0ed7145ccafc59b0a0fb91d934ca",
+      "file": "snapshots/docs--appearance--structured-data--qapage.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/recipe": {
+      "title": "Recipe (`Recipe`, `HowTo`, `ItemList`) structured data",
+      "hash": "33e0d652ecd0555a79e098c9f4f0b856aac3abd7eaecc37f6c69558ad9ad6850",
+      "file": "snapshots/docs--appearance--structured-data--recipe.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/return-policy": {
+      "title": "Merchant return policy (`MerchantReturnPolicy`) structured data",
+      "hash": "940f8e637315dde58b7302a459cc5405ed0e859aa45adabc784158796f1c9d3b",
+      "file": "snapshots/docs--appearance--structured-data--return-policy.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/review-snippet": {
+      "title": "Review snippet (`Review`, `AggregateRating`) structured data",
+      "hash": "1055bbc1b05dd451192131140c93eafdc9890b47918da56050197136fffa79e7",
+      "file": "snapshots/docs--appearance--structured-data--review-snippet.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/sd-policies": {
+      "title": "General structured data guidelines",
+      "hash": "2ec2742e6bd7162fe5dd148fa10af7e267115cb9d62acade3bbb751d020bf411",
+      "file": "snapshots/docs--appearance--structured-data--sd-policies.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/search-gallery": {
+      "title": "Structured data markup that Google Search supports",
+      "hash": "a21be2d1814e15a243541444a0e7c82b143fa6d64aa41f9ef97510d7b3c34cd6",
+      "file": "snapshots/docs--appearance--structured-data--search-gallery.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/shipping-policy": {
+      "title": "Merchant shipping policy (`ShippingService`) structured data",
+      "hash": "f4544b9f5db81ea97f65870f2df67dff9f2c4061d882b12bdd246a1f11de6572",
+      "file": "snapshots/docs--appearance--structured-data--shipping-policy.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/software-app": {
+      "title": "Software app (`SoftwareApplication`) structured data",
+      "hash": "7f106b7dc8bffca27f925e69f9cb43a65e26afb164c47e2eadfa6f23b2d4d363",
+      "file": "snapshots/docs--appearance--structured-data--software-app.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/speakable": {
+      "title": "Speakable (`Article`, `WebPage`) structured data (BETA)",
+      "hash": "38e65960752c00213af1dc09b4775fb5bad95c8b6e0a84ba2d20c12d1a2d6499",
+      "file": "snapshots/docs--appearance--structured-data--speakable.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/vacation-rental": {
+      "title": "Vacation rental (`VacationRental`) structured data",
+      "hash": "4673b6f76469859deaab7b3acd107b56a975e47a35e7d801778c6bade6a1a6ea",
+      "file": "snapshots/docs--appearance--structured-data--vacation-rental.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/video": {
+      "title": "Video (`VideoObject`, `Clip`, `BroadcastEvent`) structured data",
+      "hash": "94468654803eb9689a601b84ce9ee6959e616c04963b6e241dbb9d6b4f7ad4e4",
+      "file": "snapshots/docs--appearance--structured-data--video.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/supplier-unit": {
+      "title": "Supplier unit in Google Search",
+      "hash": "01ad2792d3d20bb1a7f73628449c01029c4e2e82bb73aa1e3063962f5de34f7e",
+      "file": "snapshots/docs--appearance--supplier-unit.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/title-link": {
+      "title": "Influencing your title links in search results",
+      "hash": "a97fbb8d4d0cdf53b661b4b4d955fa384e0d5edf96b21527fe2474a64e6bde32",
+      "file": "snapshots/docs--appearance--title-link.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/top-places-list": {
+      "title": "Top Places List",
+      "hash": "188d33f85dbbdf48b4154d15335992a0992026027d8ef72baa95bbba0ad9d153",
+      "file": "snapshots/docs--appearance--top-places-list.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/translated-results": {
+      "title": "Translated results in Google Search",
+      "hash": "d2029666f365e12b535bd0ecbafac0d74b02f24bfac1fb982280af2d436f572e",
+      "file": "snapshots/docs--appearance--translated-results.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/ugc-fresh-data-program": {
+      "title": "UGC Fresh Data Program",
+      "hash": "ee874361f159f8d9792dbb134f504be8cd95d67b0fa640e722649f6bd6f4a890",
+      "file": "snapshots/docs--appearance--ugc-fresh-data-program.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/video": {
+      "title": "Video SEO best practices",
+      "hash": "cc9a69d439f9718bcd834437975ef47b1ac45fc16fdf4abdb2b2f91ffed33ec1",
+      "file": "snapshots/docs--appearance--video.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/visual-elements-gallery": {
+      "title": "Visual Elements gallery of Google Search",
+      "hash": "b91011a6ec29b8b59eb9ace3906919156cff9aeec9409689fbc7ef58f26f3977",
+      "file": "snapshots/docs--appearance--visual-elements-gallery.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/web-stories-content-policy": {
+      "title": "Web Story Content Policies on Google",
+      "hash": "a478bb320dcf631004bd9eeb69fd3f89f0da82e4614fb5f9303d041fd11103d1",
+      "file": "snapshots/docs--appearance--web-stories-content-policy.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/appearance/web-stories-creation-best-practices": {
+      "title": "Best practices for creating Web Stories",
+      "hash": "0ab6cdc2098ab7913469e6807859d28c17c6a35c9ed9934809fed7c1ea56e4a1",
+      "file": "snapshots/docs--appearance--web-stories-creation-best-practices.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing": {
+      "title": "Overview of crawling and indexing topics",
+      "hash": "0bf233e98e33aa9a856e34cb778d48c0e17979646eee71be4193b91038a5fe09",
+      "file": "snapshots/docs--crawling-indexing.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/301-redirects": {
+      "title": "Redirects and Google Search",
+      "hash": "726938f874b1bdf1505a4ae13d51caca8175e6394532713a3e8ddb020b7f265f",
+      "file": "snapshots/docs--crawling-indexing--301-redirects.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/amp": {
+      "title": "About AMP on Google Search",
+      "hash": "ce7497f05310125a3310a541ea344e3559b2f4041c2f1018660d78e02e2f6a9e",
+      "file": "snapshots/docs--crawling-indexing--amp.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/amp/enhance-amp": {
+      "title": "Enhance AMP content in Google Search",
+      "hash": "bc4dd2e1f5a5ff669a205b6526b9d867252bf15608e94a9960635341f6b7444b",
+      "file": "snapshots/docs--crawling-indexing--amp--enhance-amp.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/amp/remove-amp": {
+      "title": "Remove your AMP pages from Google Search",
+      "hash": "7d36c1e26d3e4160635c3ab9c64d49de521163f24f70a1bb50d0f6be7489c983",
+      "file": "snapshots/docs--crawling-indexing--amp--remove-amp.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/amp/validate-amp": {
+      "title": "Validate your AMP content",
+      "hash": "25abea220107c3475982fe0ca81fe8ceff88e8a357250e0dce0800f7b51c3340",
+      "file": "snapshots/docs--crawling-indexing--amp--validate-amp.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl": {
+      "title": "Ask Google to recrawl your URLs",
+      "hash": "9073c1721c5b87a3427a1cd0aa66433b91fd0d9c46424b680279dd6a767b5adb",
+      "file": "snapshots/docs--crawling-indexing--ask-google-to-recrawl.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/block-indexing": {
+      "title": "Block Search indexing with `noindex`",
+      "hash": "30fdf92d03eaa5e2fa7091a7c175e98461fb864eaf32a006e83b2f4092247e01",
+      "file": "snapshots/docs--crawling-indexing--block-indexing.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/canonicalization": {
+      "title": "What is canonicalization",
+      "hash": "6214d3b85c35d29b305a92090a5c7f10d2aefbb8d554bc1b6f8b638f60b00800",
+      "file": "snapshots/docs--crawling-indexing--canonicalization.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/canonicalization-troubleshooting": {
+      "title": "Fix canonicalization issues",
+      "hash": "bfe349fc2c02ff2eda5721fd4e1b432835a03a82b1145394ef8edde05c185e6f",
+      "file": "snapshots/docs--crawling-indexing--canonicalization-troubleshooting.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/consolidate-duplicate-urls": {
+      "title": "How to specify a canonical URL with rel=\"canonical\" and other methods",
+      "hash": "87057b4c3cba3d8724e7caca749c36b82aad5b15414eb52adea77e1cfc2474c5",
+      "file": "snapshots/docs--crawling-indexing--consolidate-duplicate-urls.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/control-what-you-share": {
+      "title": "Control what you share with Google Search",
+      "hash": "2c129d8afff22dea874845a5501cc8b9c09c53e39dbb843e62bd329d9dd92dbb",
+      "file": "snapshots/docs--crawling-indexing--control-what-you-share.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/googlebot": {
+      "title": "Googlebot",
+      "hash": "c952b414f1dbd63ed879c64bc3ae6564dd838ffcc81a452562b37726946d7dda",
+      "file": "snapshots/docs--crawling-indexing--googlebot.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/indexable-file-types": {
+      "title": "File types indexable by Google",
+      "hash": "f6d5a6ac54874328ebec9e111c949b38f45d614d0097a9972085980b674a1abb",
+      "file": "snapshots/docs--crawling-indexing--indexable-file-types.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/dynamic-rendering": {
+      "title": "Dynamic rendering as a workaround",
+      "hash": "8d4847e129505716cdea24d61f1f34798a5b2444a4fc30c034d5e8f0c6faef1a",
+      "file": "snapshots/docs--crawling-indexing--javascript--dynamic-rendering.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript": {
+      "title": "Fix Search-related JavaScript problems",
+      "hash": "c3f23a1b1656b63e6e9ced258e863e7cb79affd64e6e668c5a04761737167e07",
+      "file": "snapshots/docs--crawling-indexing--javascript--fix-search-javascript.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics": {
+      "title": "Understand the JavaScript SEO basics",
+      "hash": "41840e581b624303234e976cfd020c8c6f488e0a4528ea46374444b6d380bbc5",
+      "file": "snapshots/docs--crawling-indexing--javascript--javascript-seo-basics.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading": {
+      "title": "Fix lazy-loaded content",
+      "hash": "552e0b8bd6ada8700a4fdbee9328c8dca5e125f20d6b16443d320d837ba8228d",
+      "file": "snapshots/docs--crawling-indexing--javascript--lazy-loading.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/keep-redacted-information-out": {
+      "title": "Keep redacted information out of Google Search",
+      "hash": "2bb318a8b405e7d3109c1b72542ced957b9635b198559d08ed86ffb41a36a88b",
+      "file": "snapshots/docs--crawling-indexing--keep-redacted-information-out.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/links-crawlable": {
+      "title": "Link best practices for Google",
+      "hash": "8ca2629eb253b5139399c85ac76ad104ea2ece9c0dc1fdf2bd7808e398f952ad",
+      "file": "snapshots/docs--crawling-indexing--links-crawlable.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing": {
+      "title": "Mobile site and mobile-first indexing best practices",
+      "hash": "35eab43e6031d7aad9b7f611ab4e41711c7c528529dd4434910ceda3232acf99",
+      "file": "snapshots/docs--crawling-indexing--mobile--mobile-sites-mobile-first-indexing.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/pause-online-business": {
+      "title": "Temporarily pause or disable a website",
+      "hash": "d3212a7e704781f7673ad56c64e5771220c2e3701390533960a2c530d0c59db5",
+      "file": "snapshots/docs--crawling-indexing--pause-online-business.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/prevent-images-on-your-page": {
+      "title": "Remove images hosted on your site from search results",
+      "hash": "fe4681fe3c355e1df3f3ad361742b8341188767ffea7c2df0e19140225ae4ef3",
+      "file": "snapshots/docs--crawling-indexing--prevent-images-on-your-page.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links": {
+      "title": "Qualify your outbound links to Google",
+      "hash": "6a953904f814cc3a232ca4faefd102ea1d95c3b981bbe4f7c3b45855cea7b46a",
+      "file": "snapshots/docs--crawling-indexing--qualify-outbound-links.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/remove-information": {
+      "title": "Remove a page hosted on your site from Google",
+      "hash": "71bf68d9aa41170d244a42b5fe383e0ea956c100b504e5987207c7512ae2d330",
+      "file": "snapshots/docs--crawling-indexing--remove-information.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag": {
+      "title": "Robots `meta` tag, `data-nosnippet`, and `X-Robots-Tag` specifications",
+      "hash": "a2b3913ce9ed8a4195c63b2cf616731d519babc77532ee5212284c2db56f54db",
+      "file": "snapshots/docs--crawling-indexing--robots-meta-tag.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/robots/intro": {
+      "title": "Introduction to robots.txt",
+      "hash": "3d7d9b8fd1c9baf48529fd0dbad783408032185775b16adcca603aa6182cae9e",
+      "file": "snapshots/docs--crawling-indexing--robots--intro.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/site-move-no-url-changes": {
+      "title": "Changing your hosting",
+      "hash": "074f3255d917084f5284a8ac1e6d39fa86099680e52e2a4ee9a9f872ec733ec1",
+      "file": "snapshots/docs--crawling-indexing--site-move-no-url-changes.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes": {
+      "title": "How to move a site",
+      "hash": "4c37bd494a255cd642ee460ed554d2d9741c22dc969b7ba660ec1901c62771e0",
+      "file": "snapshots/docs--crawling-indexing--site-move-with-url-changes.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap": {
+      "title": "Build and submit a sitemap",
+      "hash": "0f5a0a4ee1a93bc75a1ad9715bce0f813884faa6ea2150f4f90d74cd73fbfb5e",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--build-sitemap.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/combine-sitemap-extensions": {
+      "title": "How to combine sitemap extensions",
+      "hash": "a220964ffca1900896984937cc1bf3aaa1d1cf73ac87a53b639783ffa114eb6c",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--combine-sitemap-extensions.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/image-sitemaps": {
+      "title": "Image sitemaps",
+      "hash": "6195b4ea75a9d5ec7ceeeaa6afd3ceff2c2e717e479bec7e82c3b61fe5e7f461",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--image-sitemaps.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/large-sitemaps": {
+      "title": "Manage your sitemaps with a sitemap index file",
+      "hash": "27f348e7439058dcaf739106db4425a680e6352ac2af6f9b2f17ed1360c4612e",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--large-sitemaps.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap": {
+      "title": "News sitemaps",
+      "hash": "60f8bebdb206bb7f579342b72bbf058d1e37b2be4e2fbabff4c2aba833f15f20",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--news-sitemap.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview": {
+      "title": "Learn about sitemaps",
+      "hash": "66270bc5db4b7021bbf7aa1a2c22162b174243b0e5fa2020d19ab4e756191374",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--overview.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/sitemaps/video-sitemaps": {
+      "title": "Video sitemaps and alternatives",
+      "hash": "649091d3d27448487a7ad2a7cff8a12ed0f6014c3833fb2729e8477a970ef16b",
+      "file": "snapshots/docs--crawling-indexing--sitemaps--video-sitemaps.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/special-tags": {
+      "title": "`meta` tags and attributes that Google supports",
+      "hash": "2474b5efcad66a3d12becf13cce1521404017cd9a0b0f5180a6340c67a89a072",
+      "file": "snapshots/docs--crawling-indexing--special-tags.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/troubleshoot-crawling-errors": {
+      "title": "Troubleshoot Google Search crawling errors",
+      "hash": "0a0919953f5c700071a475d07d1e5a6765a291c0520fb444e80ae34a4ef994f2",
+      "file": "snapshots/docs--crawling-indexing--troubleshoot-crawling-errors.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/url-structure": {
+      "title": "URL structure best practices for Google Search",
+      "hash": "efab734cc365fc5e75b823cb5b194d7ae826bea5ecc0a82f2ff7d7cc93ea5602",
+      "file": "snapshots/docs--crawling-indexing--url-structure.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata": {
+      "title": "Use valid HTML to specify page metadata",
+      "hash": "fdf093028a5baec206ecaf77dc2a98437f57019dfc9703321ac6f31745022797",
+      "file": "snapshots/docs--crawling-indexing--valid-page-metadata.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/website-testing": {
+      "title": "Minimize A/B testing impact in Google Search",
+      "hash": "b78f1199c2ffa26b1a68d45d00c84f929e0bb34dfd3c13608e594d2e044e7d48",
+      "file": "snapshots/docs--crawling-indexing--website-testing.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/essentials": {
+      "title": "Google Search Essentials",
+      "hash": "bc5d4190e7b71f33ac54dae73014c103c5634108f039ddefd002fa58b2b67337",
+      "file": "snapshots/docs--essentials.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/essentials/spam-policies": {
+      "title": "Spam policies for Google web search",
+      "hash": "de1c0205aed4a451fb3a015e4d668802f85c8e4521735aef2c793fb85fbd6d8f",
+      "file": "snapshots/docs--essentials--spam-policies.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/essentials/technical": {
+      "title": "Google Search technical requirements",
+      "hash": "b76bc8f016fc21443a27784a19208cffb34f2dedb579a061abfda9c4fc8bcfac",
+      "file": "snapshots/docs--essentials--technical.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide": {
+      "title": "Optimizing your website for generative AI features on Google Search",
+      "hash": "0571ca81f56848a0dfef8e52c6b72a9d30076c76928c2a8571a8c90a785fa778",
+      "file": "snapshots/docs--fundamentals--ai-optimization-guide.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/creating-helpful-content": {
+      "title": "Creating helpful, reliable, people-first content",
+      "hash": "00ca6f4ef0683822a88d4e545799fae991c8515df91dcb7c1ba2cb8c9ed7d5ca",
+      "file": "snapshots/docs--fundamentals--creating-helpful-content.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/do-i-need-seo": {
+      "title": "Do you need an SEO?",
+      "hash": "0a1bef721deb94b16e7b547bda2a7bb94496886d14a1e5155610db6becd62999",
+      "file": "snapshots/docs--fundamentals--do-i-need-seo.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/gen-ai-attribution-factuality": {
+      "title": "Attribution and factuality in Search generative AI features",
+      "hash": "1c48252cdf4260e5a6f0e76a5a98aea49a54e9248c17f86e7e7dc31622490141",
+      "file": "snapshots/docs--fundamentals--gen-ai-attribution-factuality.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/gen-ai-controls": {
+      "title": "Control how your content is used for generative AI at Google",
+      "hash": "402f2931f90747d1ddc38b889cddec01a66cfcf486af727d770fb73df0b1d92d",
+      "file": "snapshots/docs--fundamentals--gen-ai-controls.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/get-on-google": {
+      "title": "Get your website on Google",
+      "hash": "bf5b808b21bbe6e2a0c3f717c00a0d609428ae83d3b78af5d64013b1e50efa27",
+      "file": "snapshots/docs--fundamentals--get-on-google.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/get-started": {
+      "title": "Maintaining your website's SEO",
+      "hash": "4c3093e83ab64b67f4d2d0f8adb6078e3580aa4fa0aabf7c2ac73f92dce9016a",
+      "file": "snapshots/docs--fundamentals--get-started.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/get-started-developers": {
+      "title": "Get started with Search: a developer's guide",
+      "hash": "609c2a654a0fe6193ec22fbfc4b54dbde79711719eb6edfe5498d707583ade2d",
+      "file": "snapshots/docs--fundamentals--get-started-developers.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/how-search-works": {
+      "title": "In-depth guide to how Google Search works",
+      "hash": "eb205043812efb8cbdcd55a54120bd81fefd24388e6e24aadbbd8d25b873b318",
+      "file": "snapshots/docs--fundamentals--how-search-works.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/seo-starter-guide": {
+      "title": "Search Engine Optimization (SEO) Starter Guide",
+      "hash": "6d8c6651a4835f3b0b4a6b269e4b1ffe4bd3376f34b213d535a576c376388949",
+      "file": "snapshots/docs--fundamentals--seo-starter-guide.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/third-party-seo": {
+      "title": "Google Search's guidance on using third-party SEO tools, services, and advice",
+      "hash": "c5c0797a1c0ec51e5a803064136e5858cd82fa95d4d00e92ab7d08604590a1fa",
+      "file": "snapshots/docs--fundamentals--third-party-seo.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/fundamentals/using-gen-ai-content": {
+      "title": "Google Search's guidance on using generative AI content on your website",
+      "hash": "23db16c08fe418c0826636ba16c6a151283be5c82339fd1883d132185e33faa1",
+      "file": "snapshots/docs--fundamentals--using-gen-ai-content.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/analyze-social-video-content": {
+      "title": "Analyze your social and video platform content performance in Search Console",
+      "hash": "e4cce9f57c5ab5cc1a1f93be5ffeac647e880fef5f84b96fb8e5a083d9527c6b",
+      "file": "snapshots/docs--monitor-debug--analyze-social-video-content.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/bubble-chart-analysis": {
+      "title": "Improving SEO with a Search Console bubble chart",
+      "hash": "2566407ae8f389a814a1efaff361bb8ac95ed7a7f3f0579b547302d93e9f6ae6",
+      "file": "snapshots/docs--monitor-debug--bubble-chart-analysis.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops": {
+      "title": "Debugging drops in Google Search traffic",
+      "hash": "180a751bf72b7650c12671dcaea9b173b53ca551672c763434d98210fca5ec79",
+      "file": "snapshots/docs--monitor-debug--debugging-search-traffic-drops.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/google-analytics-search-console": {
+      "title": "Using Search Console and Google Analytics data for SEO",
+      "hash": "7286abd58fb3ad2907e3cedbee3d222825d0999e4f2e57101924baadafe6564e",
+      "file": "snapshots/docs--monitor-debug--google-analytics-search-console.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/identify-google-search-traffic": {
+      "title": "Identify Google Search traffic in your web analytics or server logs",
+      "hash": "b2482955eb6c0df22a122a672ac73b05c4173e56118015fe634852e3dd3422ef",
+      "file": "snapshots/docs--monitor-debug--identify-google-search-traffic.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/prevent-abuse": {
+      "title": "Prevent user-generated spam on your site and platform",
+      "hash": "5f23ecc51e9803aa3359354978dbb6967c75b971ad9901a33b1c1fb38ece9c41",
+      "file": "snapshots/docs--monitor-debug--prevent-abuse.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/search-console-start": {
+      "title": "Get started with Search Console",
+      "hash": "8da636ff8275b531d77b916bf2b028d290f27c032329832e16dc8cfcdc0c0e3e",
+      "file": "snapshots/docs--monitor-debug--search-console-start.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/search-operators": {
+      "title": "Overview of Google search operators",
+      "hash": "e2c7b372dad3741480aa7ebffcb2ecdd751af42e3d759e309b04c0418632dcef",
+      "file": "snapshots/docs--monitor-debug--search-operators.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/search-operators/all-search-site": {
+      "title": "`site:` search operator",
+      "hash": "4027b145589fda795cec54e45ae1aa09c85bbc69747432ea3eb91ef31fac5dce",
+      "file": "snapshots/docs--monitor-debug--search-operators--all-search-site.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/search-operators/image-search": {
+      "title": "Google Images search operators",
+      "hash": "5b582e56a3e5213de34179f8c7f494383cf8ab042f026aeb7c0608f7c67d565d",
+      "file": "snapshots/docs--monitor-debug--search-operators--image-search.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/security": {
+      "title": "Preventing and monitoring abuse on your site",
+      "hash": "d08ca7937f7603e55c823d30731ae92f33b238cbfb5c13b60451b5d36fe48529",
+      "file": "snapshots/docs--monitor-debug--security.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/security/malware": {
+      "title": "Malware and unwanted software",
+      "hash": "953e82af09f5869ea32af5d8554332d9fddae6a1103fe66bed387022b82b2095",
+      "file": "snapshots/docs--monitor-debug--security--malware.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/security/prevent-malware": {
+      "title": "Preventing malware infection",
+      "hash": "c762a2b60c2c504ceba1978b52319e2f3e97e5f833b69544715a8730683c0a09",
+      "file": "snapshots/docs--monitor-debug--security--prevent-malware.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/security/safe-browsing-repeat-offenders": {
+      "title": "Google Safe Browsing Repeat Offenders Policy",
+      "hash": "f3164996cd9feb08fb78927a9ef0159ce6acb48a2eeefef65b3594818603b708",
+      "file": "snapshots/docs--monitor-debug--security--safe-browsing-repeat-offenders.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/security/social-engineering": {
+      "title": "Social engineering (phishing and deceptive sites)",
+      "hash": "506634d1b8a8586557ee4c23a3b684a5d101b0595675b3a00c81ff6f45f75da9",
+      "file": "snapshots/docs--monitor-debug--security--social-engineering.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/trends-start": {
+      "title": "Get started with Google Trends",
+      "hash": "65c396a1508017b625b3a72c8777ce683a4df811fa130b476a7648ae4fe8e839",
+      "file": "snapshots/docs--monitor-debug--trends-start.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/ranking": {
+      "title": "Google Search Ranking Hub",
+      "hash": "ea7abd34c660266c2054e7a738b8dd2374cc83a551bf713802a82138ee4ae6e0",
+      "file": "snapshots/docs--ranking.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/ranking/principles-for-ranking-results": {
+      "title": "Our principles for ranking results",
+      "hash": "3f5caf6392d194fd61eaf51d118ea257e1057b3f50439b26b1a8f8d19f90ebdf",
+      "file": "snapshots/docs--ranking--principles-for-ranking-results.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/ranking/stay-informed": {
+      "title": "How to stay informed on Google Search ranking updates",
+      "hash": "c4d1e8d4161098bf93e3501189676f2ed5246bdc5edbda0b36e1e463f5e04549",
+      "file": "snapshots/docs--ranking--stay-informed.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/ranking/submit-feedback": {
+      "title": "Submit feedback about ranking changes in Google Search",
+      "hash": "3a907baa5055a6a972c8df137ce74cf4a338f6a74492968a3ad4256a193377fc",
+      "file": "snapshots/docs--ranking--submit-feedback.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce": {
+      "title": "Best practices for ecommerce sites in Google Search",
+      "hash": "8e1f4ad74e569faec79816bdd51fc64e2f3e7fddd735dbdff01630974242846b",
+      "file": "snapshots/docs--specialty--ecommerce.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/designing-a-url-structure-for-ecommerce-sites": {
+      "title": "Designing a URL structure for ecommerce websites",
+      "hash": "3467517be37809acd2c744d07a5c51eed389ad983164d07406457b93c6744dad",
+      "file": "snapshots/docs--specialty--ecommerce--designing-a-url-structure-for-ecommerce-sites.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/help-google-understand-your-ecommerce-site-structure": {
+      "title": "Help Google understand your ecommerce website structure",
+      "hash": "956e3f0415f769db3aaf376c38711cb83bbc58b606647647522347aed2d7695e",
+      "file": "snapshots/docs--specialty--ecommerce--help-google-understand-your-ecommerce-site-structure.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/how-to-launch-an-ecommerce-website": {
+      "title": "How to launch a new ecommerce website",
+      "hash": "cd71b98e142190db80a1993a9713c4191cf40949c79e04704cb657d415c16ec0",
+      "file": "snapshots/docs--specialty--ecommerce--how-to-launch-an-ecommerce-website.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/include-structured-data-relevant-to-ecommerce": {
+      "title": "Include structured data relevant to ecommerce",
+      "hash": "a854a7684a8ca7b53eddb84d43233a7632ea4e1f8d6e8afa3853e49e9a5c5ba6",
+      "file": "snapshots/docs--specialty--ecommerce--include-structured-data-relevant-to-ecommerce.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading": {
+      "title": "Pagination, incremental page loading, and their impact on Google Search",
+      "hash": "ee26973e17c98cbed0e97df2f47b2a63342c2f409c951a5be608c05f9bbbd2e7",
+      "file": "snapshots/docs--specialty--ecommerce--pagination-and-incremental-page-loading.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/share-your-product-data-with-google": {
+      "title": "Share your product data with Google",
+      "hash": "7e7e8ec2a9004e8c0a5361175c7bfbead393aa9847005d3fc50957826962f2e6",
+      "file": "snapshots/docs--specialty--ecommerce--share-your-product-data-with-google.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/where-ecommerce-data-can-appear-on-google": {
+      "title": "Where ecommerce content can appear on Google",
+      "hash": "cb8a4bd147e550a3989b892301ae40b730cc5f83e6b833a6d200eaf1e45a8fbf",
+      "file": "snapshots/docs--specialty--ecommerce--where-ecommerce-data-can-appear-on-google.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/ecommerce/write-high-quality-reviews": {
+      "title": "Write high quality reviews",
+      "hash": "4ca6152b3a84513d6ea613696676c5d998197a4121481fa127f3955fbe2d6667",
+      "file": "snapshots/docs--specialty--ecommerce--write-high-quality-reviews.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/explicit/guidelines": {
+      "title": "Guidelines for sites with explicit content",
+      "hash": "9f3c4fced2e124433595197ca4c8f75e98638c64d434c611a9c42145d12aa1d1",
+      "file": "snapshots/docs--specialty--explicit--guidelines.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/explicit/troubleshooting": {
+      "title": "What to do if your site is incorrectly flagged as explicit in Google Search results",
+      "hash": "27f24ac5174dff3e7ccf8973ccd7a0f244c8a1b69a36354be4e0832998dd2881",
+      "file": "snapshots/docs--specialty--explicit--troubleshooting.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/international": {
+      "title": "Overview of international and multilingual site topics",
+      "hash": "c1d7d8705777ef74135945a6c25d949de8513eafb4a5557ade72286fad10902d",
+      "file": "snapshots/docs--specialty--international.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/international/locale-adaptive-pages": {
+      "title": "How Google crawls locale-adaptive pages",
+      "hash": "a5e27cf27a2ec9afdd2b7bd34406bb918dd01fd6975ec752cdcc16cd0193b188",
+      "file": "snapshots/docs--specialty--international--locale-adaptive-pages.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/international/localized-versions": {
+      "title": "Tell Google about localized versions of your page",
+      "hash": "8269659449892da4302909187b80c508fa093bd49cd7aecd3d9db7af1e4f9f84",
+      "file": "snapshots/docs--specialty--international--localized-versions.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites": {
+      "title": "Managing multi-regional and multilingual sites",
+      "hash": "93aa0d8a42bf4dad7c6e2225d9d8de836cc84e9178c934ad3396ea93ae5e89cb",
+      "file": "snapshots/docs--specialty--international--managing-multi-regional-sites.md",
+      "checked": "2026-11-26"
+    },
+    "https://developers.google.com/search/updates": {
+      "title": "Latest documentation updates",
+      "hash": "efddecc797af4490aa0446e077f6252ece9425688ead9b54f9479cd74b90db73",
+      "file": "snapshots/updates.md",
+      "checked": "2026-11-26"
+    }
+  },
+  "unreviewed": {},
+  "elsewhere": {
+    "https://developers.google.com/search/docs/advanced/crawling/block-access-overview": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/crawling/special-tags": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/special-tags",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/bloggers": {
+      "reason": "redirects to https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/cloaking": {
+      "reason": "redirects to https://developers.google.com/search/docs/essentials/spam-policies",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/paid-links": {
+      "reason": "redirects to https://developers.google.com/search/docs/essentials/spam-policies",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/qualify-outbound-links": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/qualify-outbound-links",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/report-spam": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/search/help/report-quality-issues",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/search-console": {
+      "reason": "redirects to https://developers.google.com/search/docs/monitor-debug/search-console-start",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/sneaky-redirects": {
+      "reason": "redirects to https://developers.google.com/search/docs/essentials/spam-policies",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/tag-child-directed-treatment": {
+      "reason": "redirects outside /search/docs/ to https://support.google.com/webmasters/answer/3221080",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/guidelines/valid-html": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/valid-page-metadata",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/mobile/google-discover": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/google-discover",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/robots/robots_meta_tag": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/robots-meta-tag",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/structured-data": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/advanced/structured-data/review-snippet": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/review-snippet",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/ai-overviews": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/ai-features",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/mobile-recharge": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/notes-and-your-website": {
+      "reason": "HTTP 404",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/search-result-features": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/visual-elements-gallery",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/signed-exchange": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/articl": {
+      "reason": "HTTP 404",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/course-info": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/critic-review": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/estimated-salary": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/faqpage": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/home-activities": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/how-to": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/job-training": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/learning-video": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/logo": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/organization",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/practice-problems": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/sitelinks-searchbox": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/special-announcement": {
+      "reason": "HTTP 404",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/special-announcements": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/appearance/structured-data/vehicle-listing": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/basics/get-started": {
+      "reason": "redirects to https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/beginner/get-started": {
+      "reason": "redirects to https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/beginner/search-console": {
+      "reason": "redirects to https://developers.google.com/search/docs/monitor-debug/search-console-start",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/consolidation-of-duplicate-urls": {
+      "reason": "HTTP 404",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/crawling-managing-faceted-navigation": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/faceted-navigation",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/google-common-crawlers": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/google-common-crawlers",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/google-producer": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers#googleproducer",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/google-user-triggered-fetchers": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/google-user-triggered-fetchers",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/http-network-errors": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/troubleshooting/http-status-codes",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/large-site-managing-crawl-budget": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawl-budget",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/mobile": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/mobile/web-light": {
+      "reason": "redirects to https://developers.google.com/search/updates",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/overview-google-crawlers",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/read-aloud-user-agent": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/read-aloud-user-agent",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/reduce-crawl-rate": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/reduce-crawl-rate",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/robots/create-robots-txt": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/robots-txt/create-robots-txt",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/robots/robots_txt": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/robots-txt/robots-txt-spec",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/robots/submit-updated-robots-txt": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/robots-txt/submit-updated-robots-txt",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/safesearch": {
+      "reason": "redirects to https://developers.google.com/search/docs/specialty/explicit/guidelines",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/verifying-googlebot": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/verify-google-requests",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/crawling-indexing/what-is-site-move": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/about-amp": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/amp",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/covid-19-resources": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/search/help",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/debug": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/search/help/debug",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/education-tips": {
+      "reason": "HTTP 404",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/enable-web-stories": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/enable-web-stories",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/enhance-amp": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/amp/enhance-amp",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/fix-search-javascript": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/generate-structured-data-with-javascript": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/generate-structured-data-with-javascript",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/intro-structured-data": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/javascript-seo-basics": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/lazy-loading": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/javascript/lazy-loading",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/mark-up-listings": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/carousel",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/podcast-management": {
+      "reason": "redirects outside /search/docs/ to https://support.google.com/podcast-publishers/answer/9482981",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/prototype": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/reduce-crawl-rate": {
+      "reason": "redirects outside /search/docs/ to https://developers.google.com/crawling/docs/crawlers-fetchers/reduce-crawl-rate",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/rendering": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/javascript/fix-search-javascript",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/sd-policies": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/sd-policies",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/search-gallery": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/structured-data/search-gallery",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/submit-URLs": {
+      "reason": "redirects to https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/web-stories-content-policy": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/web-stories-content-policy",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/guides/web-stories-creation-best-practices": {
+      "reason": "redirects to https://developers.google.com/search/docs/appearance/web-stories-creation-best-practices",
+      "checked": "2026-11-20"
+    },
+    "https://developers.google.com/search/docs/monitor-debug/google-trends": {
+      "reason": "HTTP 404",
+      "checked": "2026-11-20"
+    }
+  }
+}

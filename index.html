@@ -8,6 +8,7 @@
   <title>Saravana Perumal R | Gen AI Engineer and AI Trainer in Kerala</title>
   <meta name="description" content="Who can learn AI? Everyone, with the right mentor. Saravana Perumal R is a Gen AI Engineer and AI trainer in Trivandrum, Kerala, teaching AI in plain language.">
   <meta name="theme-color" content="#1E2F57">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
 
   <!-- TODO: replace YOUR-DOMAIN with the live domain -->
   <link rel="canonical" href="https://YOUR-DOMAIN/">
@@ -23,8 +24,16 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Tinos:wght@400;700&display=swap">
-  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/styles.css?v=20261126">
 
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Saravana Perumal R",
+    "url": "https://YOUR-DOMAIN/"
+  }
+  </script>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -50,7 +59,7 @@
   }
   </script>
 
-  <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/main.js?v=20261126" defer></script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -104,6 +113,21 @@
             <a class="btn btn--ghost" href="contact.html">Get in touch</a>
           </div>
         </div>
+        <figure class="hero-jar">
+          <div class="jar-stage">
+            <img class="jar-img" src="assets/img/crane-jar.webp" width="690" height="1075" alt="A glass jar filled with colourful paper cranes" decoding="async">
+              <button class="crane-spot" type="button" style="--x:49.3%;--y:28.4%" data-crane="0" data-color="#F6A65B" aria-label="Unfold the orange crane: a note from a learner (1 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:34.1%;--y:43.3%" data-crane="1" data-color="#A8C8EC" aria-label="Unfold the light blue crane: a note from a learner (2 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:63.0%;--y:47.9%" data-crane="2" data-color="#F3B3C6" aria-label="Unfold the pink crane: a note from a learner (3 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:74.6%;--y:35.8%" data-crane="3" data-color="#E98A95" aria-label="Unfold the red crane: a note from a learner (4 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:22.5%;--y:62.8%" data-crane="4" data-color="#BBA6DE" aria-label="Unfold the purple crane: a note from a learner (5 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:63.0%;--y:59.1%" data-crane="5" data-color="#F6D06E" aria-label="Unfold the yellow crane: a note from a learner (6 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:52.9%;--y:74.0%" data-crane="6" data-color="#A0C4E8" aria-label="Unfold the blue crane: a note from a learner (7 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:37.0%;--y:83.3%" data-crane="7" data-color="#F5BFCD" aria-label="Unfold the pink crane: a note from a learner (8 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+              <button class="crane-spot" type="button" style="--x:71.7%;--y:87.9%" data-crane="8" data-color="#F7F3EA" aria-label="Unfold the white crane: a note from a learner (9 of 9)"><span class="crane-dot" aria-hidden="true"></span></button>
+          </div>
+          <figcaption class="jar-caption">Every crane holds a note from a learner. Tap one to unfold it.</figcaption>
+        </figure>
       </div>
       <svg class="hero-doodle" viewBox="0 0 80 120" aria-hidden="true" focusable="false"><path d="M34 4 C 62 6, 66 42, 42 46 C 22 50, 20 26, 40 28 C 70 32, 68 84, 42 108" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round"/><path d="M28 94 L42 108 L56 92" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </section>
@@ -254,6 +278,21 @@
       </div>
     </section>
   </main>
+
+  <!-- Crane notes: one <blockquote> per real review, in the order the cranes are clicked.
+       Ground rule: never invent reviews. Paste real ones from learners, with their permission:
+       <blockquote data-name="Name" data-role="Role, organisation"><p>One or two lines.</p></blockquote>
+       While this is empty, every crane shows the "on their way" note. -->
+  <template id="crane-notes">
+  </template>
+  <dialog class="crane-note" id="crane-note" aria-labelledby="crane-note-title">
+    <div class="crane-paper">
+      <button class="crane-close" type="button" aria-label="Fold the note away"><svg class="ico ico-x" viewBox="0 0 24 24" fill="currentColor" shape-rendering="crispEdges" aria-hidden="true" focusable="false"><path fill="currentColor" d="M7 19H5v-2h2zm12 0h-2v-2h2zM9 15v2H7v-2zm8 2h-2v-2h2zm-6-2H9v-2h2zm4 0h-2v-2h2zm-2-2h-2v-2h2zm-2-2H9V9h2zm4 0h-2V9h2zM9 9H7V7h2zm8 0h-2V7h2zM7 7H5V5h2zm12 0h-2V5h2z"/></svg></button>
+      <p class="crane-label" id="crane-note-title">A note from a learner</p>
+      <blockquote class="crane-text"><p></p></blockquote>
+      <p class="crane-who"></p>
+    </div>
+  </dialog>
 
   <footer class="site-footer">
     <div class="container">
